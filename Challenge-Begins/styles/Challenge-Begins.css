@@ -1,28 +1,32 @@
-/* Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
-
 /* Global CSS Style */
-*{
+* {
   margin: 0;
   padding: 0;
   font-family: "Azeret Mono", monospace;
   color: #0D1321;
+  box-sizing: border-box;
+}
+
+/* Full-width header and footer */
+header, footer {
+  width: 100%;
+  background-color: #f1f1f1; /* Optional: Add a background color for visual clarity */
 }
 
 /* Navbar Style */
-nav{
+nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 40px;
+  padding: 20px 40px; /* Adjust padding for spacing */
 }
 
-nav h1{
+nav h1 {
   font-size: 28px;
   font-weight: 800;
 }
 
-nav button{
+nav button {
   padding: 17px 24px;
   border-radius: 8px;
   border: 1px solid #0D1321;
@@ -31,14 +35,13 @@ nav button{
   cursor: pointer;
 }
 
-nav button:hover{
+nav button:hover {
   background-color: #535252;
   color: #FFFFFF;
 }
 
-
 /* Banner Style */
-.banner{
+.banner {
   background-image: url(../assets/Hero-bg.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -47,23 +50,23 @@ nav button:hover{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 36px 0 75px;
+  margin: 0; /* Remove default margin */
 }
 
-.banner-title{
+.banner-title {
   text-align: center;
   font-size: 48px;
   font-weight: 800;
   padding: 30px 0;
 }
 
-.description{
+.description {
   color: #7d7e83;
   font-size: 16px;
   font-weight: 400;
 }
 
-.banner button{
+.banner button {
   color: #FFFFFF;
   background-color: #0D1321;
   border-radius: 8px;
@@ -74,29 +77,50 @@ nav button:hover{
   cursor: pointer;
 }
 
-.banner button:hover{
+.banner button:hover {
   background-color: #1c2741;
 }
 
-main{
-  max-width: 0 1148px;
+/* Center main content */
+main {
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 0 20px;
 }
 
 /* Why Development Section */
-.why-development{
+.why-development {
   text-align: center;
   padding-top: 60px;
+  width: 100%;
 }
 
-.why-development h1{
-font-size: 40px;
-font-weight: 800;
-margin-bottom: 24px;
+.why-development h1 {
+  font-size: 40px;
+  font-weight: 800;
+  margin-bottom: 24px;
 }
 
-.why-development p{
+.why-development p {
   font-size: 16px;
   font-weight: 400;
   color: #7d7e83;
   padding-bottom: 48px;
+}
+
+.development-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.description {
+  width: 50%;
+  text-align: left;
+  padding: 0 48px;
+}
+
+.development-section img {
+  width: 274px;
+  height: 240px;
 }
