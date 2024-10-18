@@ -12,9 +12,9 @@ p{
 }
 
 /* Full-width header and footer */
-header, footer {
+header{
   width: 100%;
-  background-color: #f1f1f1; /* Optional: Add a background color for visual clarity */
+  background-color: #f1f1f1;
 }
 
 /* Navbar Style */
@@ -86,10 +86,9 @@ nav button:hover {
 }
 
 /* Center main content */
-main {
+main, footer {
   max-width: 1400px;
   margin: 0 auto;
-  padding: 0 100px;
 }
 
 /* Why Development Section */
@@ -98,7 +97,6 @@ main {
   padding-top: 60px;
   width: 100%;
   padding: 48px;
-  /* margin-bottom: 170px; */
 }
 
 .title {
@@ -110,7 +108,6 @@ main {
 .why-development p {
   font-size: 16px;
   font-weight: 400;
-  /* color: #7d7e83; */
   padding-bottom: 48px;
   
 }
@@ -125,7 +122,6 @@ main {
 }
 
 .description {
-  /* width: 50%; */
   text-align: left;
   padding: 0 48px;
 }
@@ -145,7 +141,6 @@ margin-bottom: 16px;
 }
 
 .development-section img {
-  /* width: 274px; */
   height: 240px;
 }
 
@@ -218,7 +213,6 @@ margin-bottom: 16px;
 
 /* Support Section */
 .support{
-  /* background-image: url(../assets/handshake.jpg); */
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), url(../assets/handshake.jpg);
   background-position: center;
   background-repeat: no-repeat;
@@ -260,4 +254,18 @@ margin-bottom: 16px;
   border-radius: 8px;
   background: #FFFFFF;
   cursor: pointer;
+}
+
+/* Footer Section */
+.footer{
+  display: flex;
+  padding: 32px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.social-media{
+  display: flex;
+  align-items: center;
+  gap: 24px;
 }
