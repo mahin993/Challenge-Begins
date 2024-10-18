@@ -7,6 +7,10 @@
   box-sizing: border-box;
 }
 
+p{
+  color: #7d7e83;
+}
+
 /* Full-width header and footer */
 header, footer {
   width: 100%;
@@ -61,7 +65,7 @@ nav button:hover {
 }
 
 .description {
-  color: #7d7e83;
+  /* color: #7d7e83; */
   font-size: 16px;
   font-weight: 400;
 }
@@ -106,7 +110,7 @@ main {
 .why-development p {
   font-size: 16px;
   font-weight: 400;
-  color: #7d7e83;
+  /* color: #7d7e83; */
   padding-bottom: 48px;
   
 }
@@ -147,13 +151,67 @@ margin-bottom: 16px;
 
 
 /* Inspiration Section */
-.inspiration-title{
+.inspiration-title, title{
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 50px;
+  font-size: 40px;
 }
 
 .inspiration p{
   padding: 30px 0;
+}
+
+
+/* Current Target Section */
+.target-title{
+  margin: 100px 0 24px;
+  font-size: 40px;
+  text-align: center;
+}
+
+.target-description{
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+.target-card{
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.html-card{
+  border-radius: 16px;
+  background: rgba(255, 76, 30, 0.08);
+  padding: 20px;
+}
+
+.css-card{
+  border-radius: 16px;
+  background: rgba(0, 76, 232, 0.05);
+  padding: 20px;
+}
+
+.js-card{
+  border-radius: 16px;
+  background: rgba(255, 223, 0, 0.05);
+  padding: 20px;
+}
+
+.card-title{
+  font-size: 24px;
+  font-weight: 800;
+  margin: 12px 0;
+}
+
+.card-description{
+  margin-bottom: 16px;
+}
+
+.card a{
+  font-size: 16px;
+  font-weight: 700;
+  text-decoration-line: underline;
 }
