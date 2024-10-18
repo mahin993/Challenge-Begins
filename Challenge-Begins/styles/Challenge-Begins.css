@@ -83,9 +83,9 @@ nav button:hover {
 
 /* Center main content */
 main {
-  max-width: 1600px;
+  max-width: 1400px;
   margin: 0 auto;
-  padding: 0 20px;
+  padding: 0 100px;
 }
 
 /* Why Development Section */
@@ -93,9 +93,11 @@ main {
   text-align: center;
   padding-top: 60px;
   width: 100%;
+  padding: 48px;
+  /* margin-bottom: 170px; */
 }
 
-.why-development h1 {
+.title {
   font-size: 40px;
   font-weight: 800;
   margin-bottom: 24px;
@@ -106,21 +108,52 @@ main {
   font-weight: 400;
   color: #7d7e83;
   padding-bottom: 48px;
+  
 }
 
 .development-section {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-bottom: 32px;
+  padding: 48px;
+  margin-bottom: 32px;
 }
 
 .description {
-  width: 50%;
+  /* width: 50%; */
   text-align: left;
   padding: 0 48px;
 }
 
+.description h2{
+font-size: 24px;
+font-weight: 700;
+margin-bottom: 16px;
+}
+
+.description button {
+  font-size: 20px;
+  font-weight: 600;
+  padding: 12px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
 .development-section img {
-  width: 274px;
+  /* width: 274px; */
   height: 240px;
+}
+
+
+/* Inspiration Section */
+.inspiration-title{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+}
+
+.inspiration p{
+  padding: 30px 0;
 }
